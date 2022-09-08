@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -11,6 +13,7 @@ img {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   display: grid;
   grid-template-columns: minmax(250px, 1fr) 5fr;
   grid-template-rows: 1fr 4fr;
@@ -39,18 +42,41 @@ body {
   grid-column: 2;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
 .top-header {
   display: grid;
-  grid-template-columns: 3fr 2fr;
-  border: 2px solid red;
+  grid-template-columns: 2fr 1fr;
+  /* border: 2px solid red; */
+  align-items: center;
+}
+
+form {
+  /* border: 2px solid green; */
+  display: flex;
+  gap: 0.5rem;
+}
+
+input {
+  width: 80%;
+  background-color: #ddd;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  font-family: inherit;
 }
 
 .info {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 2rem;
-  justify-content: flex-end;
 }
 
 .profile-pic {
