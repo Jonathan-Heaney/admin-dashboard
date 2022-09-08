@@ -144,12 +144,40 @@ input {
   grid-row: span 2;
 }
 
+.project-grid {
+  height: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #999;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  gap: 1rem;
+}
+
+.icons ul {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  grid-row: 3;
+}
+
+.icons li {
+  list-style-type: none;
+}
+
 .announcements {
   border: 2px solid green;
-  background-color: black;
 }
 
 .trending {
   border: 2px solid blue;
-  background-color: green;
 }
