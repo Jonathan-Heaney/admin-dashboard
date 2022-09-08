@@ -17,7 +17,7 @@ body {
   display: grid;
   grid-template-columns: minmax(220px, 1fr) 6fr;
   grid-template-rows: minmax(150px, 1fr) 5fr;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .sidebar {
@@ -144,6 +144,10 @@ input {
   grid-row: span 2;
 }
 
+.projects h3 {
+  padding: 20px 20px 0 20px;
+}
+
 .project-grid {
   height: 90%;
   display: grid;
@@ -156,6 +160,7 @@ input {
 .card {
   background-color: #fff;
   border-radius: 10px;
+  border-left: 10px solid #fb9e0b;
   box-shadow: 0 0 5px #999;
   padding: 1.5rem;
   display: grid;
