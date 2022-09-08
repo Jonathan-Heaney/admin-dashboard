@@ -16,7 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
   display: grid;
   grid-template-columns: minmax(220px, 1fr) 6fr;
-  grid-template-rows: minmax(150px, 1fr) 4fr;
+  grid-template-rows: minmax(150px, 1fr) 5fr;
   min-height: 100vh;
 }
 
@@ -134,4 +134,22 @@ input {
   grid-row: 2;
   grid-column: 2;
   background-color: #ddd;
+  box-shadow: 0 0 5px #999;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.projects {
+  grid-row: span 2;
+}
+
+.announcements {
+  border: 2px solid green;
+  background-color: black;
+}
+
+.trending {
+  border: 2px solid blue;
+  background-color: green;
 }
