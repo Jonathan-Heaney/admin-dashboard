@@ -135,9 +135,14 @@ input {
   grid-column: 2;
   background-color: #ddd;
   box-shadow: 0 0 5px #999;
+}
+
+.main-container {
+  /* height: 90%; */
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 1fr;
+  border: 2px solid red;
 }
 
 .projects {
@@ -149,7 +154,7 @@ input {
 }
 
 .project-grid {
-  height: 90%;
+  /* height: 90%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
@@ -166,6 +171,16 @@ input {
   display: grid;
   grid-template-rows: 1fr 3fr 1fr;
   gap: 1rem;
+}
+
+.announcements {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.trending {
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .icons ul {
