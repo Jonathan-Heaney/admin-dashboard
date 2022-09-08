@@ -39,6 +39,26 @@ body {
   grid-column: 2;
 }
 
+.top-header {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  border: 2px solid red;
+}
+
+.info {
+  border: 2px solid yellow;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: flex-end;
+}
+
+.profile-pic {
+  width: 10%;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
 .main {
   grid-row: 2;
   grid-column: 2;
