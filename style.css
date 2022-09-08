@@ -16,7 +16,7 @@ body {
   font-family: 'Roboto', sans-serif;
   display: grid;
   grid-template-columns: minmax(250px, 1fr) 5fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 1fr 4fr;
   min-height: 100vh;
 }
 
@@ -46,27 +46,18 @@ body {
   width: 90%;
   margin: 0 auto;
   /* margin-top: 20px; */
-  height: 100%;
+  height: 90%;
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
-  /* border: 2px solid blue; */
-}
-
-.top-header {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-row: 1;
-  grid-column: span 2;
-  /* border: 2px solid red; */
   align-items: center;
 }
 
 form {
-  /* border: 2px solid green; */
   grid-column: 1;
   display: flex;
   gap: 0.5rem;
+  align-items: center;
 }
 
 input {
@@ -80,7 +71,6 @@ input {
 }
 
 .info {
-  /* border: 2px solid yellow; */
   grid-column: 2;
   display: flex;
   align-items: center;
@@ -92,15 +82,6 @@ input {
   width: 10%;
   border: 1px solid black;
   border-radius: 50%;
-}
-
-.bottom-header {
-  /* border: 2px solid brown; */
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-row: 2;
-  grid-column: span 2;
-  align-items: center;
 }
 
 .user-info {
@@ -119,8 +100,7 @@ input {
 .buttons {
   grid-column: 2;
   display: flex;
-  gap: 20px;
-  /* border: 2px solid green; */
+  gap: 30px;
 }
 
 .btn {
