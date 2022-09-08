@@ -138,11 +138,9 @@ input {
 }
 
 .main-container {
-  /* height: 90%; */
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr 1fr;
-  border: 2px solid red;
 }
 
 .projects {
@@ -154,7 +152,7 @@ input {
 }
 
 .project-grid {
-  /* height: 90%; */
+  height: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
