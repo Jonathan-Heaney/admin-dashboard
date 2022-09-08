@@ -179,10 +179,32 @@ input {
   list-style-type: none;
 }
 
-.announcements {
-  border: 2px solid green;
+.announcements,
+.trending {
+  padding: 20px;
 }
 
-.trending {
-  border: 2px solid blue;
+.announcements-grid,
+.trending-grid {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #999;
+  margin-top: 20px;
+  display: grid;
+  gap: 1rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile img {
+  width: 60px;
+  height: 60px;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 50%;
 }
